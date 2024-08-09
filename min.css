@@ -1,0 +1,386 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+html {
+    scroll-behavior: smooth;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.contaner {
+    background-image: url(img/about.png);
+    background-size: cover;
+    height: calc(100vh - 64px);
+    margin: 0;
+    position: relative;
+
+}
+
+/* start header*/
+.Header {
+    display: flex;
+    top: 0;
+    left: 0;
+    width: 87%;
+    padding: 22px 4%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.Logo {
+    font-size: 20px;
+    color: white;
+    letter-spacing: 5px;
+    text-decoration: none;
+    font-weight: 700;
+    font-family: sans-serif;
+
+}
+
+nav a {
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 3.5rem;
+    font-family: sans-serif;
+
+}
+
+.btn {
+    background: rgba(95, 87, 77, 0.493);
+    border: none;
+    color: white;
+    height: 37px;
+    margin-top: 11px;
+    width: 162px;
+    margin-right: -148px;
+    font-family: sans-serif;
+    font-weight: 500;
+    border-radius: 20px;
+}
+
+/* End header*/
+/* start Lading*/
+.Landing .intro-text {
+    position: absolute;
+    left: 23%;
+    top: 61%;
+    transform: translate(-51%, -39%);
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.Landing .intro-text h4 {
+    margin-left: 30px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+
+.Landing .intro-text p {
+    font-size: xx-large;
+    font-weight: bold;
+    line-height: 1.8;
+    color: white;
+
+}
+
+.imge {
+    width: 400px;
+    height: auto;
+
+}
+
+.imge img {
+    width: 400px;
+    margin-top: 48px;
+    display: flex;
+    margin-left: 938px;
+
+}
+
+/* end Lading*/
+/* start Fouter*/
+.features {
+    background: white;
+    position: absolute;
+    justify-content: space-between;
+    margin: 113px;
+    left: 18%;
+    top: 96%;
+    margin-right: 256px;
+    transform: translate(-40%, -49%);
+    color: rgb(21, 20, 20);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.features h3 {
+    color: #989494;
+    letter-spacing: 2px;
+    font-size: 8px;
+    margin: 5px;
+    font-weight: 800;
+
+}
+
+.features h2 {
+    font-weight: 900;
+
+}
+
+.features p {
+    color: #635f5f;
+
+}
+
+/* end Fouter*/
+/* start meet cheefs*/
+.meet {
+    background: #d2d1d122;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.meet .content {
+    display: flex;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 30px;
+    margin: 80px;
+
+}
+
+.meet .content .card {
+    background-color: white;
+}
+
+.meet .content .card img {
+    max-width: 100%;
+}
+
+.meet .content .card .info {
+    padding: 20px;
+}
+
+.meet .content .card .info h2 {
+    margin: 0;
+    text-align: center;
+    font-size: large;
+}
+
+.meet .content .card .info p {
+    margin: 0;
+    text-align: center;
+    font-size: x-small;
+    letter-spacing: 1px;
+    color: #989494;
+}
+
+.meet h3 {
+    text-align: center;
+    font-size: 27px;
+}
+
+.meet h4 {
+    text-align: center;
+    font-size: 10px;
+    color: #9692929a;
+}
+
+/* end meet cheefs*/
+
+/* start menu*/
+
+.Menu {
+    text-align: center;
+    padding-top: 40px;
+    font-size: 23px;
+    margin: 15px;
+
+}
+
+.Menu h4 {
+    text-align: center;
+    font-size: 10px;
+    font-weight: 900;
+    margin: 8px;
+    color: #969292b5;
+    letter-spacing: 1px;
+}
+
+.gallery {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.gallery img {
+    width: 382px;
+    margin: 11px;
+}
+
+/* end menu*/
+/*start input-box*/
+.cafe {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.img_1 {
+    padding: 61px;
+    margin: 11px;
+}
+
+.img_1 img {
+    width: 550px;
+    margin: 41px;
+    display: flex;
+    padding-right: 25px;
+    padding-left: 47px;
+}
+
+.cafe h1 {
+    display: flex;
+    text-align: center;
+    font-size: 22px;
+    margin-right: 566px;
+    margin-top: 119px;
+    font-weight: 700;
+}
+
+.contact-us {
+
+    width: 420px;
+    border: 5px solid rgba(255, 255, 255, .2);
+    color: #fff;
+    padding: 0px 0px;
+    margin-left: 778px;
+    margin-top: -436px;
+}
+
+.contact-us .input-box {
+    width: 100%;
+    height: 32px;
+    margin: 25px 0;
+}
+
+.input-box input {
+    width: 101%;
+    height: 155%;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    background: transparent;
+}
+
+.input-box input::placeholder {
+    color: #989595;
+}
+
+.Send {
+    width: 418px;
+    border-radius: 0;
+    height: 44px;
+    border: none;
+    background: red;
+    color: white;
+    font-weight: 700;
+}
+
+/*end input-box*/
+/*Start Find */
+.end {
+    display: flex;
+    justify-content: center;
+    background: rgba(236, 233, 233, 0.516);
+    height: 297px;
+    width: 100%;
+    padding: 56px;
+    margin-top: 117px;
+}
+
+.section_1 {
+    margin-top: 60px;
+    padding-right: 90px;
+}
+
+.section_1 p {
+    color: #989494;
+    padding-top: 18px;
+}
+
+.section_2 {
+    margin-top: 60px;
+    padding-right: 90px;
+}
+
+.section_2 p {
+    color: #989494;
+    padding-top: 18px;
+}
+
+.open-hours {
+    background-image: linear-gradient(rgba(72, 69, 69, 0.833), rgba(49, 48, 48, 0.632)),
+        url("img/footer-open-hour-bg.jpg");
+    position: relative;
+    background-size: cover;
+    width: 300px;
+    height: 200px;
+    border-radius: 20px;
+}
+
+.open-hours .content {
+    text-align: center;
+    width: 186px;
+    color: #fff;
+    margin-top: 12px;
+    padding-left: 47px;
+
+
+}
+
+.open-hours .content p {
+    font-size: 14px;
+}
+
+.open-hours .content .one {
+    color: #d3d1d1e5;
+    padding-top: 7px;
+
+}
+
+.open-hours .content .one_1 {
+    color: #c6c4c4e5;
+    padding-top: 7px;
+
+}
+
+.Copyright {
+    margin-top: 10px;
+    padding-left: 55px;
+    margin-top: 34px;
+    color: #989494;
+}
+
+.Design {
+    padding-left: 55px;
+    margin-top: 12px;
+    color: #989494;
+}
+
+.icons {
+    color: rgba(255, 0, 0, 0.909);
+    text-align: center;
+    letter-spacing: 8px;
+    padding-top: 24px;
+    margin-right: -36px;
+}
+
+/*Start Find */
